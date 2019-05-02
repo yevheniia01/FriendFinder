@@ -1,0 +1,25 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yevheniia01/FriendFinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yevheniia01/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/yevheniia01/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "css": "^2.2.4",
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}

@@ -1,0 +1,33 @@
+body{
+    background-image: url("../images/beautiful-bloom-blooming-1563650.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#navbarText{
+    font-family: 'Viga', sans-serif;
+    margin-right: 32%;
+    font-size: 50px;
+}
+#container2{
+    background: #ffffff9e;
+    margin-top: 10%;
+    width: 1000px;
+    box-shadow: 1px 0px 20px 7px #1b191b;
+}
+
+
+#container2 h1, h2{
+    font-family: 'Cabin Condensed', sans-serif;
+    text-align: center;
+}
+.bg-light{
+    background-color: #f8f9fa8c;
+    box-shadow: 1px 0px 20px 3px #1b191b;
+}
+#surveyBody{
+    background-image: url("../images/purple.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
