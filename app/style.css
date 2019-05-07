@@ -1,0 +1,205 @@
+body{
+    background-image: url("../images/beautiful-bloom-blooming-1563650.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 800px;
+}
+#footerSurvey{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+footer{
+    text-align: center;
+    margin-top: 50px;
+}
+#submitBtn{
+    margin-left: 1px;
+    margin-top: 20px;
+    width: 100%;
+}
+.surveyText{
+    text-shadow: 6px 6px 8px #090909;
+    color: white;
+    font-size: 50px;
+    font-family: 'Oleo Script', cursive;
+
+}
+label{
+    display: inline-block;
+    margin-bottom: .5rem;
+    color: white;
+    font-size: 20px;
+    font-family: 'Oleo Script', cursive;
+}
+#name{
+    background: #ffffff9e;
+    color: black;
+}
+#picture{
+    background: #ffffff9e;
+    color: black;
+}
+#secondContainerSurv{
+    margin-top: 5%;
+}
+.modal-content{
+  border-radius: 0px;
+  box-shadow: -3px 4px 20px 5px #0c0c0c;
+}
+.modal-backdrop{
+    background: #00000061;
+}
+.modal-dialog{
+    margin-top: 10%;
+}
+.modal-title{
+    margin-left: 22%;
+}
+#friendModal{
+    background: #00000075;
+}
+#friendPhoto{
+    max-width: 100%;
+}
+.fade:not(.show) {
+    opacity: 10;
+}
+#navbarText{
+    font-family: 'Viga', sans-serif;
+    margin-right: 32%;
+    font-size: 50px;
+}
+#container2{
+    background: #ffffff9e;
+    margin-top: 7%;
+    width: 1000px;
+    box-shadow: 1px 0px 20px 7px #1b191b;
+}
+#container2 h2{
+    padding: 10px;
+}
+#container2 h1{
+    padding: 20px;
+    font-size: 60px;
+}
+
+#container2 h1, h2{
+    font-family: 'Cabin Condensed', sans-serif;
+    text-align: center;
+}
+.bg-light{
+    background-color: #f8f9fa8c;
+    box-shadow: 1px 0px 20px 3px #1b191b;
+}
+#surveyBody{
+    background-image: url("../images/purple.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.col{
+    height: 450px;
+}
+/*BUTTON ANIMATION*/
+.btn-v2.green {
+    color: #4adfd1;
+    border: 2px solid #4adfd1;
+}
+
+.btn-v2.green::before {
+    background: #4adfd1;
+}
+
+.btn-v2.green:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.btn-v2.green:focus {
+    text-decoration: none;
+}
+
+.btn-v2:hover::before,
+.btn-v2:focus::before,
+.btn-v2:active::before {
+    -webkit-transition-timing-function: cubic-bezier(.52, 1.64, .37, .66);
+    -moz-transition-timing-function: cubic-bezier(.52, 1.64, .37, .66);
+    -o-transition-timing-function: cubic-bezier(.52, 1.64, .37, .66);
+    transition-timing-function: cubic-bezier(.52, 1.64, .37, .66);
+    -webkit-transform: scaleY(1);
+    -moz-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    transform: scaleY(1);
+}
+.btn-v2 {
+    font: 300 .935rem 'Oswald', sans-serif;
+    position: relative;
+    display: inline-block;
+    min-width: 200px;
+    padding: 15px 5px;
+    -webkit-transition: color .2s linear;
+    -moz-transition: color .2s linear;
+    -o-transition: color .2s linear;
+    transition: color .2s linear;
+    -webkit-transform: perspective(1px) translateZ(0);
+    -moz-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    text-align: center;
+  text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fdb145;
+    border: 2px solid #fdb145;
+    background-color: transparent;
+}
+
+.btn-v2:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-v2:focus {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-v2::before {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    -webkit-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -o-transition-duration: .2s;
+    transition-duration: .2s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: transform, -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform, -moz-transform, -o-transform;
+    -webkit-transform: scaleY(0);
+    -moz-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 0;
+    -moz-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    -o-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    background: #fdb145;
+}
+.btn-v2{
+    margin-left: 40%;
+}
