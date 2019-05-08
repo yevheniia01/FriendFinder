@@ -9,10 +9,10 @@
 
 
 ## Technologies Used:
-** JavaScript
-** Node.js
-** Express
-** Bootstrap
-** Css
-** Html
-** Deployed to Heroku
+* JavaScript
+* Node.js
+* Express
+* Bootstrap
+* Css
+* Html
+* Deployed to Heroku
