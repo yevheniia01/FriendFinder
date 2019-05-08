@@ -19,19 +19,18 @@
                     <a class="navbar-brand" href="#">
                       <img src="../images/sunflower.png" width="50" height="50">
                     </a>
-                    <h1 id="navbarText">FRIEND FINDER</h1>
-                  </nav>
-        
-            </div>
-            <div class="container content" id="secondContainerSurv">
-               <form>
-                   <h2 class="surveyText">Enter Your name and link to profile photo</h2>
-                <div class="form-group">
+                      <h1 id="navbarText">FRIEND FINDER</h1>
+                </nav>
+        </div>
+        <div class="container content" id="secondContainerSurv">
+          <form>
+               <h2 class="surveyText">Enter Your name and link to profile photo</h2>
+            <div class="form-group">
                   <input id="name" type="text" class="form-control" placeholder="Enter Your Name">
-                </div>
-                <div class="form-group">
+            </div>
+            <div class="form-group">
                   <input id="picture" type="text" class="form-control" placeholder="Link to Photo ">
-                </div>
+            </div>
                <h2 class="surveyText">Take Survey</h2>
                 <div class="form-group">
                   <label for="question1">I like stay alone</label>
@@ -147,7 +146,6 @@
                <div class="text-center">
                 <button id="submitBtn" type="submit" class=" btn-v2">Submit</button>
               </div>
-
               <div id="friendModal" class="modal fade" role="dialog">
                 <div class="modal-dialog">
                   <div class="modal-content">
@@ -205,14 +203,14 @@
                   ]
                 };
                 var currentURL = window.location.origin;
-                // Ajax call for receiving response after POST req
+
                 $.post(currentURL + "/api/friends", newUser, function(data) {
                   $("#friendText").text(data.name);
                   $("#friendPhoto").attr("src", data.photo);
                   $("#friendModal").modal("toggle");
                 });
               } else {
-                // If a required field is missing, show alert
+                
                 alert("Survey is incomplete!");
               }
           
