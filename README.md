@@ -5,7 +5,7 @@
 ### then answer the question by choosing the number from select form
 ### and here we go! You got your perfect friend!
 
-## Click this link to open FriendFinder https://dry-sierra-49299.herokuapp.com/
+## Click this link to open FriendFinder https://friendfinderf.herokuapp.com/
 
 
 ## Technologies Used:
