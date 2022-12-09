@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/yevheniia01/FriendFinder#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "css": "^2.2.4",
-    "express": "^4.16.4",
+    "express": "^4.18.2",
     "path": "^0.12.7"
   }
 }
